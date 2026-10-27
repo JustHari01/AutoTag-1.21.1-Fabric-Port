@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.apace100.autotag.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "SimpleRegistryMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

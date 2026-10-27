@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "autotag-convention",
+  "version": "${version}",
+
+  "name": "AutoTag Convention",
+  "description": "Automatically fills some convention tags using AutoTag API.",
+  "authors": [
+    "Apace",
+    "Will BL"
+  ],
+
+  "license": "MIT",
+  "icon": "assets/autotag/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.apace100.autotag.common.AutoTagConvention"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "autotag": "*"
+  }
+}

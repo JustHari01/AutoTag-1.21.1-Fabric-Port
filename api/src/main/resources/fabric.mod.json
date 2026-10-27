@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "autotag",
+  "version": "${version}",
+
+  "name": "AutoTag",
+  "description": "Provides an API to automatically fill tag entries.",
+  "authors": [
+    "Apace",
+    "Will BL"
+  ],
+
+  "license": "MIT",
+  "icon": "assets/autotag/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+  },
+  
+  "mixins": [
+    "autotag.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  },
+  "custom": {
+    "modmenu": {
+      "badges": [ "library" ]
+    }
+  }
+}
